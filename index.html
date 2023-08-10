@@ -5,31 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Резюме</title>
+    <link rel="stylesheet" href="/css-course/rwsume.css">
+   
 </head>
 <body>
-   <img src="img\я.jpg" width="200">
+   
+    <div class="container">
+        <div class="info">
+
+   <img src="img\я.jpg" class="ava">
+        
    <br>
 
+    <div class="info-text"> 
+
     <h1>Анастасия Субоч</h1>
-    <p>Я работаю на нефтеперерабатывающем заводе лаборантом химического анализа, <strong>очень хочу попасть в IT мир!</strong></p>
-    <p>Люблю <em>путешествия, музыку и познавать что-то новое</em></p>
-    <br>
+    <p>Я работаю на нефтеперерабатывающем заводе лаборантом химического анализа, 
+    <strong>очень хочу попасть в IT мир!</strong></p>
+    <p>Люблю <em>путешествия, музыку и познавать что-то новое!</em></p>
+    
+
+    <br> 
+
+    <div class="site">
+
+        <h2>Список социальных сетей:</h2>
+        <br>
+
     <a href="https://vk.com/miss_chastye" target="_blank"> Вконтакте</a>
-    <h2>Мои хобби:</h2>
-    <ul>
+    <a href="https://vk.com/away.php?to=https%3A%2F%2Finstagram.com%2F
+    suboch_nastya%3Figshid%3DMjEwN2IyYWYwYw%3D%3D&cc_key=" target="_blank"> Instagram</a></div>
+</div></div>
+
+    <hr>
+
+    <div class="card1">
+
+    <h2>Мои хобби</h2>
+    <ul class="list">
         <li>Смотреть аниме</li>
         <li>Изучать психологию</li>
-    </ul>
+        <li>Слушать музыку</li>
+    </ul></div>
     <br>
+
+    <div class="card2">
+
     <h3>Опыт работы</h3>
-    <table>
-        <thead>
+    <table class="table">
+       <!-- <thead>
             <tr>
                 <th>Название</th>
                 <th>Должность</th>
                 <th>Год</th>
             </tr>
-        </thead>
+        </thead>-->
         <tr>
             <td>Башнефть</td>
             <td>Пробоотборщик</td>
@@ -45,25 +75,47 @@
             <td>Лаборант (постоянный)</td>
             <td>2022-по настоящее время</td>
         </tr>
-    </table>
+    </table></div>
+    <br>
 
-    <h4>Связаться со мной:</h4>
+    <div class="card3">
+
+        <h2>Мои курсы</h2>
+        <ul class="curs">
+            <li>Получение профессии Frontend разработчика</li>
+            <li>Основы программирования</li>
+        </ul></div>
+
     
-    <div>
-<label for="name">Ваше имя</label>
-<input type="name" id="name" placeholder="Введите имя">
+    
+    <form action="|" class="form">
+        <h4>Связаться со мной:</h4>
+
+         <div class="formrou">
+
+    <div class="formg">
+
+        <label for="name">Ваше имя</label>
+        <input type="name" id="name" placeholder="Введите имя">
 
     </div>
-    <div>
+
+    <div class="formg">
         <label for="email">Ваш email</label>
         <input type="email" id="email" placeholder="Введите email">
                 
     </div>
-    <div>
-        <label for="message">Ваше сообщение </label>  <br>
+        </div>
+
+    <div class="formg">
+        <label for="message">Ваше сообщение </label>  
         <textarea name="message" id="message" cols="30" rows="10" placeholder="Введите сообщение"></textarea>
+        <br>
+        <input class="btn" type="submit" value="Отправить!">
                        
     </div>
-
+</form>
+</div>
+    
 </body>
 </html>
